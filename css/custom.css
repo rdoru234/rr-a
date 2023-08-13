@@ -63,9 +63,10 @@ footer {
 }
 
 .modal-content iframe {
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 10px;
-
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .modal-content .close {
@@ -79,6 +80,15 @@ footer {
     -webkit-border-radius: 24px;
 }
 
+
+.modal-dialog {
+  position: fixed;
+  width: auto;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -173px;
+}
 
 .btn-lg {
     font-size: 24px;
